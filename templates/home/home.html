@@ -1,0 +1,19 @@
+{% extends 'base.html' %} 
+
+{% block title_home %} Home {% endblock %}
+
+{% block home %}
+<table class='table mt-5 table-bordered table-striped table-hover'>
+    <tbody class ='table-dark'>
+        <tr>
+            <td><a href='/admin/'>Admin</a></td>
+        </tr>
+        <tr>
+            <td><a href='/shop/'>Shop</a></td>
+        </tr>
+        <tr>
+            <td><a href='/api/v1/'>API</a></td>
+        </tr>
+    </tbody>
+</table>    
+{% endblock %}
